@@ -1,6 +1,17 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif; */
+:root {
+    --first-colour:#121110;
+    --second-colour: #D01110;
+    --third-colour: #D3A550;
+    --fourth-colour: #EBE7D0;
+    --font-heading:'Raleway', sans-serif;
+    --font-main:'Open Sans', sans-serif;
+    --font-accent:'Poppins', sans-serif;
+}
+
+
 body {
     background-color: #F8AFA6;
 }
