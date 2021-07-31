@@ -39,8 +39,8 @@ width: 60%;
     font-weight:300;
 }
 .profile-pic {
-  max-width: 600px;
-  max-height: 500px;
+  max-width: 500px;
+  max-height: 450px;
   border-radius: 50%;
 }
 .homepage-about{
@@ -70,4 +70,4 @@ font-family: var(--font-heading);
 }
 .secondary-button:hover {
     color: var(--first-colour);
-    background: var(--second-colour);
+    background: var(--second-colour);}
