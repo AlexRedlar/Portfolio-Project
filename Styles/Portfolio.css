@@ -2,19 +2,16 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif; */
 :root {
-    --first-colour:#121110;
-    --second-colour: #D01110;
-    --third-colour: #D3A550;
-    --fourth-colour: #EBE7D0;
+    --first-colour:#FF5765;
+    --second-colour: #8A6FDF;
+    --third-colour: #ABEA7C;
+    --fourth-colour: #B2D7DA;
     --font-heading:'Raleway', sans-serif;
     --font-main:'Open Sans', sans-serif;
     --font-accent:'Poppins', sans-serif;
 }
 
 
-body{
-    background-color: black;
-}
 .headerImage {
 opacity: 0.9;
 display: block;
@@ -41,6 +38,36 @@ width: 60%;
     font-size: 48px;
     font-weight:300;
 }
-.card {
-    background: black;
+.profile-pic {
+  max-width: 600px;
+  max-height: 500px;
+  border-radius: 50%;
 }
+.homepage-about{
+    margin-top: 50px;
+} 
+
+.homepage-about-me{
+    font-family: var(--font-accent);
+    color: #555658;
+    font-weight: bold;
+}
+.hi {
+font-family: var(--font-heading);
+
+    font-weight: bold;
+    color: var(--second-colour);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.secondary-button{
+    text-decoration: none;
+    border: solid 1px var(--second-colour);
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-family: var(--font-accent);
+    color: var(--second-colour);
+}
+.secondary-button:hover {
+    color: var(--first-colour);
+    background: var(--second-colour);
