@@ -83,3 +83,16 @@ font-family: var(--font-heading);
     font-weight:300;  
     padding-top: 8px;
 }
+.btn-primary {
+ text-decoration: none;
+    border: solid 1px var(--first-colour);
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-family: var(--font-accent);
+    color: var(--first-colour); 
+    background-color: transparent;  
+}
+.btn-primary:hover{
+color: var(--second-colour);
+background: var(--third-colour);
+border: solid 1px var(--second-colour);}   
