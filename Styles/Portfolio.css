@@ -11,9 +11,6 @@ font-family: 'Raleway', sans-serif; */
     --font-accent:'Poppins', sans-serif;
 }
 
-.hero {
-    position: relative;
-}
 
 .headerImage {
 opacity: 0.9;
@@ -34,10 +31,10 @@ width: 60%;
     font-family: var(--font-heading);
     font-weight: bold; 
 }
-.card-title {
+#name-title {
     font-size: 60px;
     font-family: var(--font-heading);
-    font-weight: bold;
+    font-weight: bold !important;
     text-transform: uppercase;
     line-height: 84px;
 }
@@ -80,3 +77,9 @@ font-family: var(--font-heading);
     color: var(--first-colour);
     background: var(--second-colour);}
 
+.card-title {
+    font-family: var(--font-accent);
+    font-size: 40px;
+    font-weight:300;  
+    padding-top: 8px;
+}
