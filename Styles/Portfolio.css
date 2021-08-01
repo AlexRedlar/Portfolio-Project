@@ -96,3 +96,8 @@ font-family: var(--font-heading);
 color: var(--second-colour);
 background: var(--third-colour);
 border: solid 1px var(--second-colour);}   
+
+.btn-primary:active{
+color: var(--second-colour);
+background: var(--third-colour);
+border: solid 1px var(--second-colour);}   
