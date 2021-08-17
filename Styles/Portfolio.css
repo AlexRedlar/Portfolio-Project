@@ -13,7 +13,7 @@ font-family: 'Raleway', sans-serif; */
     --secondary-font: "Open Sans", sans-serif;
     --background-color: #f8f9fa;
     --secondary-color: #49494a;
-    --third-color: #ce5656;
+    --third-color: #ce5656;}
 
 .headerImage {
 opacity: 0.9;
@@ -109,9 +109,8 @@ border: solid 1px var(--second-colour);}
     padding: 160px 20px 225px 10px;
     background-image: url(/Images/Alex\ H2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;}
 
-    //
 
     .description {
   padding: 100px 60px 120px 0px;
@@ -240,4 +239,4 @@ p {
   color: white;
   font-family: var(--secondary-font);
   font-weight: light;
-  font-size: 15px;
+  font-size: 15px;}
