@@ -3,7 +3,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif; */
 :root {
     --first-colour:#FF5765;
-    --second-colour: #8A6FDF;
+    --second-colour:#fffff0;
     --fourth-colour: #C5957F;
     --font-heading:'Raleway', sans-serif;
     --font-main:'Open Sans', sans-serif;
@@ -62,14 +62,14 @@ width: 60%;
 
 .homepage-about-me{
     font-family: var(--font-accent);
-    color: #555658;
-    font-weight: bold;
+    color:white;
+    font-weight: normal;
 }
 .hi {
 font-family: var(--font-heading);
 
     font-weight: bold;
-    color: var(--second-colour);
+    color: var(--third-color);
     font-size: 40px;
     text-transform: uppercase;
 }
@@ -90,6 +90,7 @@ font-family: var(--font-heading);
     font-size: 40px;
     font-weight:300;  
     padding-top: 8px;
+    color: var(--second-colour);
 }
 .btn-primary {
  text-decoration: none;
@@ -110,13 +111,6 @@ color: var(--second-colour);
 background: var(--third-colour);
 border: solid 1px var(--second-colour);}   
 
-.main {
-    padding: 160px 20px 225px 10px;
-    background-image: url(/Images/story_1629203419234.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;}
-
-
     .description {
   padding: 100px 60px 120px 0px;
 }
@@ -130,12 +124,21 @@ border: solid 1px var(--second-colour);}
   color: var(--third-color);
 }
 
+.home-image {
+  padding: 160px 20px 225px 10px;
+  background-image: url("/Images/Untitled\ design\ \(3\).png");
+  background-repeat: no-repeat;}
+
+  .banner-text{
+    text-align: right;
+  }
+
 .main {
   padding: 160px 20px 225px 10px;
   background-image: url("/Images/aj5.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat;}
+
 .p-port {
   font-size: 15px;
   color: whitesmoke;
