@@ -249,3 +249,10 @@ p {
   font-family: var(--secondary-font);
   font-weight: light;
   font-size: 15px;}
+
+  .rounded {
+      padding-bottom: 2px;
+  }
+  .cabout-cards {
+      padding-bottom: 0px;
+  }
