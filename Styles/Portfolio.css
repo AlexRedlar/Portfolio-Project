@@ -4,16 +4,19 @@ font-family: 'Raleway', sans-serif; */
 :root {
     --first-colour:#FF5765;
     --second-colour: #8A6FDF;
-    --third-colour: #ABEA7C;
-    --fourth-colour: #B2D7DA;
+    --fourth-colour: #C5957F;
     --font-heading:'Raleway', sans-serif;
     --font-main:'Open Sans', sans-serif;
     --font-accent:'Poppins', sans-serif;
    --title-font: "Raleway", serif;
     --secondary-font: "Open Sans", sans-serif;
-    --background-color: #f8f9fa;
+    --background-color: #959183;
     --secondary-color: #49494a;
     --third-color: #ce5656;}
+
+body{
+    background-color: rgb(33,49,50);
+}
 
 .headerImage {
 opacity: 0.9;
@@ -21,7 +24,9 @@ display: block;
 margin: auto;
 width: 60%; 
 }
-
+.box{
+    background-color: var(--background-color);
+}
 .card-img-overlay {
     margin-top: 145px;
     line-height: 28px;
@@ -107,7 +112,7 @@ border: solid 1px var(--second-colour);}
 
 .main {
     padding: 160px 20px 225px 10px;
-    background-image: url(/Images/Alex\ H2.jpg);
+    background-image: url(/Images/story_1629203419234.jpg);
     background-size: cover;
     background-repeat: no-repeat;}
 
@@ -127,13 +132,13 @@ border: solid 1px var(--second-colour);}
 
 .main {
   padding: 160px 20px 225px 10px;
-  background-image: url("/Images/Alex\ H2.jpg");
+  background-image: url("/Images/aj5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .p-port {
   font-size: 15px;
-  color: var(--secondary-color);
+  color: whitesmoke;
   font-family: var(--secondary-font);
 }
 
@@ -228,6 +233,7 @@ h2 {
   font-size: 35px;
   font-family: var(--title-font);
   text-align: left;
+  color: var(--third-color);
 }
 
 h4 {
