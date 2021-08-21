@@ -258,12 +258,11 @@ p {
   }
 
 
-  @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 
 .container {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .title {
@@ -344,4 +343,16 @@ mg {
 
 .fadeIn-bottom {
     top: 80%;
+}
+.coding {
+margin-top: 50px;
+}
+
+.title{
+    font-family: var(--title-font);
+    color: var(--first-colour);
+    font-size: 40px;
+}
+hr{
+    color: var(--third-color);
 }
