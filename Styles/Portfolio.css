@@ -193,6 +193,9 @@ border: solid 1px var(--second-colour);}
 
 .footer {
   background-color: var(--background-color);
+   position:fixed;
+   bottom:0px;
+   width:100%;
 }
 .footer i {
   padding: 25px;
@@ -366,26 +369,34 @@ hr{
     text-align: center;
     color: var(--second-colour);
     font-family: var(--font-accent);
+    margin-bottom: 50px;
 }
 
 .contact-btn{
     display: block;
- text-decoration: none;
- font-size: 40px;
-    border: solid 1px var(--first-colour);
-    border-radius: 5px;
-    padding: 15px 25px;
-    font-family: var(--font-accent);
-    color: var(--first-colour); 
-    background-color: transparent;  
-    text-align: center;
+    text-align:center;
+    margin: 0,auto;
+    max-height: 180px;
 }
-.contact-btn{
-color: var(--second-colour);
-background: var(--third-colour);
-border: solid 1px var(--second-colour);}   
+.contact-btn-btn {
+border: 1px solid white;
+  color:var(--secondary-color);
+  font-family: var(--font-accent);
+  font-weight: light;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px;
+  margin: 50px;
+  background-color: var(--third-color);
+  text-decoration: none;
+}
 
-.contact-btn{
-color: var(--second-colour);
-background: var(--third-colour);
-border: solid 1px var(--second-colour);} 
+.contact-btn-btn:hover{
+  color: white;
+  background-color: var(--secondary-color);
+  transition: all 5ms ease-in-out;
+  border: 1px solid #ce5656;   
+}
+
+.card-title {
+    font-size: 40px;
+}
