@@ -376,7 +376,7 @@ hr{
     display: block;
     text-align:center;
     margin: 0,auto;
-    max-height: 250px;
+    height: auto;
 }
 .contact-btn-btn {
 border: 1px solid white;
@@ -409,8 +409,4 @@ border: 1px solid white;
 
 .button-control {
     margin: 45px;
-}
-.card-subtitle{
-    font-family: var(--font-accent);
-    color: var(--first-colour);
 }
