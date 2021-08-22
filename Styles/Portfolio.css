@@ -16,6 +16,7 @@ font-family: 'Raleway', sans-serif; */
 
 body{
     background-color: rgb(33,49,50);
+    position: relative;
 }
 
 .headerImage {
@@ -193,7 +194,7 @@ border: solid 1px var(--second-colour);}
 
 .footer {
   background-color: var(--background-color);
-   position:fixed;
+   
    bottom:0px;
    width:100%;
 }
@@ -221,6 +222,9 @@ border: solid 1px var(--second-colour);}
 .footer i:hover {
   color: var(--third-color);
   transition: all 150ms ease-in-out;
+}
+.link-dark{
+    color: var(--secondary-color);
 }
 
 h1 {
