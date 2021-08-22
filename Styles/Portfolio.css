@@ -376,7 +376,7 @@ hr{
     display: block;
     text-align:center;
     margin: 0,auto;
-    max-height: 180px;
+    max-height: 250px;
 }
 .contact-btn-btn {
 border: 1px solid white;
@@ -385,7 +385,7 @@ border: 1px solid white;
   font-weight: light;
   padding: 15px 25px 15px 25px;
   border-radius: 5px;
-  margin: 50px;
+  margin-bottom: 50px;
   background-color: var(--third-color);
   text-decoration: none;
 }
@@ -399,4 +399,18 @@ border: 1px solid white;
 
 .card-title {
     font-size: 40px;
+    color: var(--secondary-color);
+}
+.contact-text{
+    font-size:10px;
+    font-family: var(--font-accent);
+    color: var(--secondary-color);
+}
+
+.button-control {
+    margin: 45px;
+}
+.card-subtitle{
+    font-family: var(--font-accent);
+    color: var(--first-colour);
 }
